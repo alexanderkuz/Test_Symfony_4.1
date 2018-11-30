@@ -22,3 +22,9 @@ log <a href="/docs/profiler.md">here</a>
 composer require server --dev
 
 log <a href="/docs/server.md">here</a>
+
+<h3>logger:</h3>
+
+composer require logger
+
+log <a href="/docs/logger.md">here</a>
