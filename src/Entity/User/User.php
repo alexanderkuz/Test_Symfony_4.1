@@ -33,7 +33,7 @@ class User
 
 
     /**
-     * @ORM\Column(type="VARBINARY")
+     * @ORM\Column(type="uuid_binary_ordered_time")
      */
     private $user_id;
 
