@@ -2,6 +2,6 @@ doctrine:
     dbal:
         types:
             uuid_binary_ordered_time: Ramsey\Uuid\Doctrine\UuidBinaryOrderedTimeType
-            VARBINARY: App\Others\UuidVarbinaryType
+            uuid_varbinary_type: App\Others\UuidVarbinaryType
         mapping_types:
-            uuid_binary_ordered_time: VARBINARY
+            uuid_binary_ordered_time: binary

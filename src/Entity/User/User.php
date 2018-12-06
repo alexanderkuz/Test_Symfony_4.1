@@ -19,7 +19,7 @@ class User
      * @var \Ramsey\Uuid\UuidInterface
      *
      * @ORM\Id
-     * @ORM\Column(type="VARBINARY", unique=true, length=16)
+     * @ORM\Column(type="uuid_varbinary_type", unique=true, length=16)
      * @ORM\GeneratedValue(strategy="CUSTOM")
      * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidOrderedTimeGenerator")
      */
@@ -27,13 +27,13 @@ class User
     private $id;
 
     /**
-     * @ORM\Column(type="VARBINARY",length=16)
+     * @ORM\Column(type="uuid_varbinary_type",length=16)
      */
     private $CoId;
 
 
     /**
-     * @ORM\Column(type="VARBINARY")
+     * @ORM\Column(type="uuid_varbinary_type")
      */
     private $user_id;
 
