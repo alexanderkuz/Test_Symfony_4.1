@@ -39,7 +39,7 @@ class UuidVarbinaryType  extends UuidBinaryOrderedTimeType
         if(isset($fieldDeclaration['length'])){
             return "VARBINARY (".$fieldDeclaration['length'].")";
         }else{
-            return "VARBINARY (1024)";
+            return "VARBINARY (16)";
         }
     }
 
