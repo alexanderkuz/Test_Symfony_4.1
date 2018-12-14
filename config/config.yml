@@ -1,0 +1,6 @@
+----
+
+framework:
+    translator: ~
+    templating:
+        engines: ['twig', 'php']

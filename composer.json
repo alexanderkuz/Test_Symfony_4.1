@@ -6,6 +6,8 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "api-platform/api-pack": "^1.1",
+        "friendsofsymfony/user-bundle": "~2.0",
+        "lexik/jwt-authentication-bundle": "^2.6",
         "ramsey/uuid": "^3.8",
         "ramsey/uuid-doctrine": "^1.5",
         "sensio/framework-extra-bundle": "^5.2",
